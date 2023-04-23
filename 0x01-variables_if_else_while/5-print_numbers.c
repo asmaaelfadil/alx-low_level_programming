@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	/*prints all single digit numbers of base 10*/
 	int n;
 
 	for (n = 0; n <= 9; n++)
