@@ -15,7 +15,7 @@ int main(void)
 	int m = 65;
 
 	while (n <= 122)
-	
+
 	{
 		putchar(n);
 		n++;
@@ -26,8 +26,8 @@ int main(void)
 	{
 		putchar(m);
 		m++;
-	}	
-	
+	}
+
 	putchar('\n');
 
 	return (0);
