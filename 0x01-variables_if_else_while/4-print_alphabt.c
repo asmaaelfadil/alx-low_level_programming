@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description "Prints alphabet except q and e"
- * Return : Always 0 (success)
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
+
 {
 	int n = 97;
 
