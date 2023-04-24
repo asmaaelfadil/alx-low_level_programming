@@ -11,16 +11,16 @@ int main(void)
 	int y;
 	int z;
 
-	for (x = 0; x < 8; x++)
+	for (x = 48; x < 58; x++)
 	{
-	for (y = x + 1; y < 9; y++)
+	for (y = x + 1; y < 58; y++)
 	{
-	for (z = y + 1; z < 10; z++)
+	for (z = y + 1; z < 58; z++)
 	{
 		putchar(x);
 		putchar(y);
 		putchar(z);
-	if (x != 8 || x != 9 || y != 10)
+	if (x != 55 || x != 56)
 	{
 		putchar(',');
 		putchar(' ');
