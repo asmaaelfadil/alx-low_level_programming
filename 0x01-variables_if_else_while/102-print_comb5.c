@@ -8,9 +8,9 @@ int main(void)
 {
 	int n, m;
 
-	for (n = 0; n <= 99; n++)
+	for (n = 0; n < 100; n++)
 	{
-	for (m = 0; m <= 99; m++)
+	for (m = 0; m < 100; m++)
 	{
 
 	putchar(n / 10 + '0');
@@ -20,7 +20,7 @@ int main(void)
 
 	putchar(m / 10 + '0');
 	putchar(m % 10 + '0');
-	if (n != 99 || m != 99)
+	if (n != 98 || m != 99)
 	{
 	putchar(',');
 	putchar(' ');
