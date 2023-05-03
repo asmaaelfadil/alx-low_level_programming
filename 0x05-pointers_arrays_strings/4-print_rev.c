@@ -5,11 +5,11 @@
  *
  * @s : a string in reverse.
  *
- * Return: 0
+ * Return: void
  */
 void print_rev(char *s)
 {
-	int i;
+	int i = 0;
 	int n;
 
 	while (*s != '\0')
@@ -25,4 +25,3 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
-
