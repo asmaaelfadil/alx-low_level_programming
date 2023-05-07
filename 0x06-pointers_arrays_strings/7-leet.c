@@ -13,16 +13,18 @@ char *leet(char *n)
 	char sc[] = "aAeEoOtTiL";
 	char sn[] = "4433007711";
 
-for (i = 0; n[i] != '\0'; i++)
-{
+	for (i = 0; n[i] != '\0'; i++)
+	{
 	for (j = 0; sc[j] != '\0'; j++)
 	{
-		if (n[i] == sc[j])
+	if (n[i] == sc[j])
 		{
-			n[i] = sn[j];
-			break;
-		}
+			
+		n[i] = sn[j];
+		break;
 	}
-}
-return (n);
+	}
+	}
+
+	return (n);
 }
