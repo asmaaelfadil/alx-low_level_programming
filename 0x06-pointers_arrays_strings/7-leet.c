@@ -20,6 +20,7 @@ for (i = 0; n[i] != '\0'; i++)
 		if (n[i] == sc[j])
 		{
 			n[i] = sn[j];
+			break;
 		}
 	}
 }
