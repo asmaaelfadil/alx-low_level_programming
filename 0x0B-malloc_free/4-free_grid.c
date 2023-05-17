@@ -5,7 +5,7 @@
 /**
  * free_grid - Write a function that frees a 2 dimensional grid
  * previously created by your alloc_grid function.
- * @grid: inpu
+ * @grid: grid of memories 
  * @height: input
  * Return: void
  */
