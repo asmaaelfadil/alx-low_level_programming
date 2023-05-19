@@ -7,13 +7,13 @@
  */
 int *array_range(int min, int max)
 {
-	int lent, i;
+	int len, i;
 	int *ptr;
 
 	if (min > max)
 		return (NULL);
-	lent = max - min + 1;
-	ptr = malloc(sizeof(int) * lent);
+	len = max - min + 1;
+	ptr = malloc(sizeof(int) * len);
 	if (!ptr)
 		return (NULL);
 	for (i = 0; i < len; i++)
